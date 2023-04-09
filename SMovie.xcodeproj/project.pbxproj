@@ -21,6 +21,8 @@
 		37A4E30C29D8B75400AD2B3E /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4E30B29D8B75400AD2B3E /* PersonViewController.swift */; };
 		37A4E30F29D8B7E500AD2B3E /* UIViewController+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4E30E29D8B7E500AD2B3E /* UIViewController+Utilities.swift */; };
 		37A4E31129D8BFA000AD2B3E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4E31029D8BFA000AD2B3E /* HomeViewController.swift */; };
+		F613B1B229DEA28A0071DDFC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F613B1B129DEA28A0071DDFC /* DetailViewController.swift */; };
+		F6AC3FD629E28E83008437B0 /* CastAndCrewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AC3FD529E28E83008437B0 /* CastAndCrewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		37A4E30B29D8B75400AD2B3E /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 		37A4E30E29D8B7E500AD2B3E /* UIViewController+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utilities.swift"; sourceTree = "<group>"; };
 		37A4E31029D8BFA000AD2B3E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F613B1B129DEA28A0071DDFC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F6AC3FD529E28E83008437B0 /* CastAndCrewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastAndCrewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 				37A4E30B29D8B75400AD2B3E /* PersonViewController.swift */,
 				37A4E30529D8B6CD00AD2B3E /* SearchViewController.swift */,
 				37A4E30329D8ACF800AD2B3E /* OnboardingViewController.swift */,
+				F6AC3FD429E28E52008437B0 /* DetailViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -121,6 +126,15 @@
 				37A4E30E29D8B7E500AD2B3E /* UIViewController+Utilities.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F6AC3FD429E28E52008437B0 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F613B1B129DEA28A0071DDFC /* DetailViewController.swift */,
+				F6AC3FD529E28E83008437B0 /* CastAndCrewCell.swift */,
+			);
+			path = DetailViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F613B1B229DEA28A0071DDFC /* DetailViewController.swift in Sources */,
 				37A4E30829D8B71900AD2B3E /* PlayViewController.swift in Sources */,
 				37A4E30F29D8B7E500AD2B3E /* UIViewController+Utilities.swift in Sources */,
 				37A4E2ED29D8A97800AD2B3E /* TabBarController.swift in Sources */,
@@ -201,6 +216,7 @@
 				37A4E30A29D8B73700AD2B3E /* FavouriteViewController.swift in Sources */,
 				37A4E30C29D8B75400AD2B3E /* PersonViewController.swift in Sources */,
 				37A4E2E929D8A97800AD2B3E /* AppDelegate.swift in Sources */,
+				F6AC3FD629E28E83008437B0 /* CastAndCrewCell.swift in Sources */,
 				37A4E30129D8AC4900AD2B3E /* Theme.swift in Sources */,
 				37A4E2FF29D8ABF600AD2B3E /* APIKey.swift in Sources */,
 				37A4E2EB29D8A97800AD2B3E /* SceneDelegate.swift in Sources */,
